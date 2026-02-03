@@ -1,0 +1,10 @@
+제목: 가변 냉매 유량 제어 (Inverter Driven Compressor)
+
+1. 원리
+정속형 압축기(On/Off 제어)와 달리, 인버터를 이용해 모터의 회전수를 조절함으로써 냉매의 순환량을 0%에서 100%까지 연속적으로 제어하는 기술.
+
+2. 적응형 제어와의 결합
+IT 부하가 낮을 때는 냉매 유량을 줄여 부분 부하(Partial Load) 효율을 극대화한다. 적응형 알고리즘은 다음 주기의 부하를 예측하여 필요한 냉매량을 미리 계산해 압축기 속도를 선제적으로 조절한다.
+
+3. 출처
+- 논문: Control strategies for variable speed vapor compression cooling systems

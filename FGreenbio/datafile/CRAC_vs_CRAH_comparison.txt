@@ -1,0 +1,12 @@
+제목: 항온항습기 종류 비교 - CRAC vs CRAH
+
+1. CRAC (Computer Room Air Conditioner)
+- 방식: 직접 팽창식 (Direct Expansion, DX). 에어컨처럼 내부에 압축기와 냉매 배관이 있음.
+- 특징: 소규모 또는 중소형 데이터센터에 주로 사용됨. 제어가 단순하나 대용량 처리 시 효율이 떨어질 수 있음.
+
+2. CRAH (Computer Room Air Handler)
+- 방식: 냉수식 (Chilled Water). 외부의 칠러(Chiller)에서 만든 차가운 물을 공급받아 팬으로 바람만 불어주는 장치.
+- 특징: 대형 데이터센터에 적합. 외기 냉방(Free Cooling) 시스템과 연동하기 유리하며 에너지 효율이 높음. 제어 알고리즘 적용 시 밸브 개도율(Valve Open %)과 팬 속도(RPM)를 조절함.
+
+3. 출처
+- 제조사 기술 백서: Vertiv / Liebert Application Note

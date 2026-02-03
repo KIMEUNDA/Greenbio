@@ -1,0 +1,18 @@
+제목: 데이터센터 컨테인먼트(Containment) 시스템의 정의와 종류
+
+1. 정의
+데이터센터 내에서 서버가 배출하는 뜨거운 공기(Hot Air)와 서버로 들어가는 차가운 공기(Cold Air)가 섞이지 않도록 물리적인 벽, 도어, 커튼 등으로 공간을 분리하는 기류 관리 기술이다.
+
+2. 주요 방식 비교
+A. 냉기 통로 차폐 (Cold Aisle Containment, CAC)
+- 방식: 서버 랙의 흡기부(앞면) 통로를 밀폐하고 냉기를 가두는 방식.
+- 특징: 이중 마루(Raised Floor)를 통해 올라온 냉기가 흩어지지 않고 서버로 바로 들어감. 나머지 실내 공간은 더워질 수 있음.
+
+B. 열기 통로 차폐 (Hot Aisle Containment, HAC)
+- 방식: 서버 랙의 배기부(뒷면) 통로를 밀폐하여 뜨거운 공기를 가두고, 이를 천장 덕트 등을 통해 공조기로 직접 회수하는 방식.
+- 특징: 데이터센터 전체 공간을 쾌적한 온도로 유지할 수 있으며, 냉방 효율이 CAC보다 일반적으로 더 높음.
+
+3. 출처 (Reference)
+- 문서명: Impact of Hot and Cold Aisle Containment on Data Center Temperature and Efficiency (White Paper 135)
+- 저자: Victor Avelar, Paul Lin
+- 발행기관: Schneider Electric Data Center Science Center

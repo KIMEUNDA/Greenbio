@@ -1,0 +1,20 @@
+제목: 데이터센터 열 환경 가이드라인 (ASHRAE TC 9.9)
+
+1. 개요
+미국냉동공조학회(ASHRAE)는 데이터센터의 IT 장비 안정성과 에너지 효율성을 위해 권장 온도 및 습도 범위를 제시한다. 이 기준은 전 세계 데이터센터 운영의 표준으로 사용된다.
+
+2. 권장 운전 조건 (Recommended Envelope)
+이 범위는 IT 장비의 신뢰성을 유지하면서도 에너지 효율을 최적화할 수 있는 구간이다.
+- 건구 온도 (Dry-Bulb Temperature): 18°C ~ 27°C (64.4°F ~ 80.6°F)
+- 노점 온도 (Dew Point): -9°C ~ 15°C
+- 상대 습도 (Relative Humidity): 60% 이하 (단, 정전기 방지를 위한 최소 습도 유지 필요, 보통 8% 이상)
+
+3. 허용 운전 조건 (Allowable Envelope) - Class A1~A4
+장비가 일시적으로 작동 가능한 범위이다. 허용 범위를 벗어나면 장비 고장률이 급격히 증가할 수 있다.
+- Class A1 기준 온도: 15°C ~ 32°C
+- Class A1 기준 습도: 20% ~ 80% RH
+
+4. 출처 (Reference)
+- 문서명: ASHRAE TC 9.9 Thermal Guidelines for Data Processing Environments (5th Edition)
+- 발행기관: ASHRAE (American Society of Heating, Refrigerating and Air-Conditioning Engineers)
+- 발행년도: 2021

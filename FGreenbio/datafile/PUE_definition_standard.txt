@@ -1,0 +1,18 @@
+제목: PUE (Power Usage Effectiveness)의 정의 및 표준
+
+1. 정의
+PUE는 데이터센터의 에너지 효율성을 나타내는 표준 지표로, '데이터센터 전체 전력 사용량'을 'IT 장비 전력 사용량'으로 나눈 값이다. The Green Grid에서 제안하였다.
+
+2. 수식
+PUE = (Total Facility Power) / (IT Equipment Power)
+- Total Facility Power: 조명, 냉각, 전력 손실 등 모든 설비 전력 포함
+- IT Equipment Power: 서버, 스토리지, 네트워크 장비가 사용하는 전력
+
+3. 수치 해석
+- PUE 1.0: 이상적인 수치 (냉각 등에 전력을 전혀 쓰지 않음)
+- PUE 1.5 이하: 효율적인 데이터센터로 간주
+- PUE 2.0 이상: 비효율적 (IT 장비가 쓰는 만큼 냉각에도 전기를 씀)
+
+4. 출처
+- 기관: The Green Grid (TGG)
+- 문서: PUE: A Comprehensive Examination of the Metric (2014)
