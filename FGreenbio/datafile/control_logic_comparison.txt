@@ -1,0 +1,16 @@
+제목: 데이터센터 냉각을 위한 PID 제어와 적응형 제어(Adaptive Control) 비교
+
+1. PID 제어 (Proportional-Integral-Derivative)
+- 정의: 현재 설정값(Set-point)과 실제 온도 간의 오차(Error)를 기반으로 비례(P), 적분(I), 미분(D) 연산을 통해 제어하는 고전적인 방식.
+- 한계점: 데이터센터처럼 IT 부하가 급격히 변하거나 외기 온도가 바뀌는 '비선형적' 환경에서는 반응 속도가 느리거나 온도가 진동하는 헌팅(Hunting) 현상이 발생하기 쉬움. 최적의 게인(Gain) 값을 튜닝하기 어려움.
+
+2. 적응형 제어 (Adaptive Control)
+- 정의: 시스템의 파라미터가 변하거나 환경이 바뀔 때, 제어기 스스로 모델을 수정하여 대응하는 방식.
+- 특징: 과거의 데이터와 현재의 환경 변수(IT 부하, 외기 온도 등)를 분석하여 미래의 온도를 예측(Prediction)하고 선제적으로 대응함.
+- 장점: 목표 온도 도달 시간이 빠르고(Settling time 단축), 오차(RMSE)가 적으며, 불필요한 냉각 에너지 소모를 줄여 PUE(Power Usage Effectiveness)를 개선할 수 있음.
+
+3. 출처 (Reference)
+- 논문명: Cooling systems in data centers: State of the art and emerging technologies
+- 저자: Capozzoli, A., & Primiceri, G.
+- 저널명: Energy Procedia, Vol 83, Pages 484-493
+- 발행년도: 2015

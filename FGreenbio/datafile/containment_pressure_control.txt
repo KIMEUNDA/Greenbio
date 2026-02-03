@@ -1,0 +1,14 @@
+제목: 컨테인먼트 시스템의 차압 제어 (Differential Pressure Control)
+
+1. 원리
+냉기 통로(Cold Aisle)와 열기 통로(Hot Aisle) 사이, 또는 이중 마루 하부와 상부 사이에 미세한 압력 차이를 유지하는 제어 방식.
+
+2. 제어 목표
+- 목표: 냉기 통로의 압력을 열기 통로보다 약간 높게 유지 (양압)하여 차가운 공기가 서버 쪽으로만 흐르도록 유도.
+- 일반적인 설정값: 0.02 ~ 0.05 inches of water column (약 5 ~ 12 Pascal)
+
+3. 알고리즘 적용
+서버의 팬 속도가 빨라져서 공기를 많이 빨아들이면 차압이 떨어지는데, 이때 제어 알고리즘은 항온항습기의 팬 속도를 높여 차압을 설정값으로 복구해야 한다.
+
+4. 출처
+- 문서: APC White Paper 150 - Power and Cooling Capacity Management
